@@ -7,8 +7,6 @@ import java.util.List;
 import java.util.*;
 
 
-
-@Component
 public class SimpleProductDao implements ProductDao {
     private List<Product> products;
     static Scanner scanner = new Scanner(System.in);

@@ -30,7 +30,7 @@ public class NorthwindApplication implements CommandLineRunner {
             System.out.println("2) \tAdd Product");
             System.out.println("3) \tDelete Product");
             System.out.println("0) \tQuit");
-            System.out.print("Choice From (0-2): ");
+            System.out.print("Choice From (0-3): ");
             String choice = scanner.nextLine();
 
             switch (choice) {
